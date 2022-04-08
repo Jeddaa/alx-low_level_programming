@@ -3,16 +3,15 @@
 /**
  * main - entry point
  *
- * Description: Print numbers 0 to 9 on one line
+ * Description: Print lowercase alphabet backwards
  * Return: 0
  */
 int main(void)
 {
-int i;
+char c;
 
-for (i = 0; i <= 9; ++i)
-putchar('0' + i);
-
+for (c = 'r'; c >= 'a'; --c)
+putchar(c);
 putchar('\n');
 
 return (0);

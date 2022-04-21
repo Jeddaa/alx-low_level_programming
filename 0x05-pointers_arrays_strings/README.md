@@ -1,0 +1,1 @@
+Pointer snd array

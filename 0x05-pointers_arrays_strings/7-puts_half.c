@@ -27,7 +27,7 @@ _putschar(str[i]);
 else if (len % 2)
 {
 for (n = (len - 1) / 2; n < len - 1; n++)
-{ _putschar(str[n + 1]);
+{ _putchar(str[n + 1]);
 }
 }
 _putchar('\n');

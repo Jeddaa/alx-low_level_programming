@@ -1,13 +1,6 @@
 #include <stdio.h>
 
-/**
- * main - Check code
- *
- * Return: always 0
- */
-
 int main(void)
-
 {
 int n;
 int a[5];

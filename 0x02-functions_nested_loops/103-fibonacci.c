@@ -7,7 +7,7 @@
  * Return: Aways 0
  */
 
-int main()
+int main(void)
 {
 long int j = 1, i = 2, next, sum = 0;
 int a = 1;

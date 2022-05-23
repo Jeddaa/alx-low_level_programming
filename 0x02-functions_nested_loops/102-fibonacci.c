@@ -13,13 +13,13 @@ long int i = 1, j = 2, result;
 int x = 1;
 while (x <= 50)
 {
-if (i != 29000000000)
+if (i != 20365011074)
 {
 printf("%ld, ", i);
 }
 else
 {
-printf("%ld", i);
+printf("%ld\n", i);
 }
 result = i + j;
 i = j;

@@ -19,7 +19,7 @@ printf("%ld, ", i);
 }
 else
 {
-printf("%ld, ", i);
+printf("%ld", i);
 }
 result = i + j;
 i = j;

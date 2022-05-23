@@ -3,7 +3,7 @@
 /**
  * main - finds and prints the sum of the even-valued terms
  * followed by a new line
- * 
+ *
  * Return: Aways 0
  */
 
@@ -23,5 +23,5 @@ i = next;
 a++;
 }
 printf("%ld\n", sum);
-return 0;
+return (0);
 }

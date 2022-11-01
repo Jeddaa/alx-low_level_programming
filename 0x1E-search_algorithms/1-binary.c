@@ -15,7 +15,7 @@ int binary_search(int *array, size_t size, int value)
 	size_t lo = 0;
 	size_t hi = size - 1;
 
-	if (array)
+	if (array || size)
 	{
 		print (array, hi, lo);
 		while (lo < hi)

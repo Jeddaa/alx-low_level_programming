@@ -46,10 +46,9 @@ int jump_search(int *array, size_t size, int value)
 
 /**
 * print - to print the array
-* @size: length of the array
 * @lo: lower bound of the array
-* @array: array to be printed
-* Return: void
+* @array: array to be searched
+* Return: Null
 */
 
 void print(int *array, size_t lo)

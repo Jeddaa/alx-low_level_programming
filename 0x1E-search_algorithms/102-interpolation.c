@@ -5,9 +5,9 @@
  * @array: array
  * @i: index checked
  */
-void print_i(int *array, size_t i)
+void print(int *array, size_t pos)
 {
-	printf("Value checked array[%lu] = [%d]\n", i, array[i]);
+	printf("Value checked array[%lu] = [%d]\n", pos, array[pos]);
 }
 
 /**
@@ -31,7 +31,7 @@ int interpolation_search(int *array, size_t size, int value)
 
 	while (pos < size)
 	{
-		printf("Value checked array[%ld] = [%d]\n", pos, array[pos]);
+		print(array, pos);
 		if (array[pos] == value)
 			return (pos);
 		else if (array[pos] > value)

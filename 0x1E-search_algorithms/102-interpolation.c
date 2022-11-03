@@ -1,9 +1,9 @@
 #include "search_algos.h"
 
 /**
- * print_i - helper func to print idx each check
+ * print - helper func to print idx each check
  * @array: array
- * @i: index checked
+ * @pos: index checked
  */
 void print(int *array, size_t pos)
 {
@@ -41,6 +41,6 @@ int interpolation_search(int *array, size_t size, int value)
 		pos = lo + (((double)(hi - lo) / (array[hi] - array[lo]))
 				* (value - array[lo]));
 	}
-	printf("Value checked array[%ld] is out of range\n", pos);
+	printf("Value checked array[%lu] is out of range\n", pos);
 	return (-1);
 }

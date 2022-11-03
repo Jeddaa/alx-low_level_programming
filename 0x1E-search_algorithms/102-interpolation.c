@@ -26,7 +26,7 @@ int interpolation_search(int *array, size_t size, int value)
 	size_t pos = lo + (((double)(hi - lo) / (array[hi] - array[lo]))
 			* (value - array[lo]));
 
-	if (!array || size == 0)
+	if (!array)
 		return (-1);
 
 	while (pos < size)

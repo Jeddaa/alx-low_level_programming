@@ -13,13 +13,17 @@ int interpolation_search(int *array, size_t size, int value)
 {
 	size_t lo = 0;
 	size_t hi = size - 1;
-	size_t pos;
-	
+	size_t pos = lo + (((double)(hi - lo) / (array[hi] - array[lo]))
+			* (value - array[lo]));
+
 	if (array == NULL || size == 0)
 		return (-1);
 
-	pos = lo + (((double)(hi - lo) / (array[hi] - array[lo]))
+	/*
+	 * pos = lo + (((double)(hi - lo) / (array[hi] - array[lo]))
 			* (value - array[lo]));
+			*/
+
 	while (pos < size)
 	{
 		printf("Value checked array [%ld] = [%d]\n", pos, array[pos]);
